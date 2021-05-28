@@ -32,10 +32,7 @@ const Contact = () => {
         <SocialLinks />
       </div>
       <div className="mt-4">
-        {/* <a href="/resume.pdf" download>
-          resume
-        </a>
-        <a href="mailto: abc@example.com">Send Email</a> */}
+       
         <Button href="mailto:sivelafj@gmail.com">Email me</Button>
       </div>
       <div className="mt-4">
