@@ -36,7 +36,7 @@ const Contact = () => {
         <Button href="mailto:sivelafj@gmail.com">Email me</Button>
       </div>
       <div className="mt-4">
-        <Button href="/FALAKHE.pdf" download>
+        <Button href="https://drive.google.com/file/d/1YiKO4FBwtTRJqPZVA5I_Whwwiy13AheA/view?usp=sharing" download>
           Download CV
         </Button>
       </div>

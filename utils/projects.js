@@ -23,13 +23,13 @@ export const projects = [
   },
   {
     id: "3",
-    name: "procomputers",
+    name: "procomputersss",
     image: "/comp-store.png",
     tags: ["#react", "#javascript", "#node.js", "#mongoDB", "#restapis"],
     description:
       "This is a full e-commers site with admin area, full user authantication and authorization.the loged in users can save items to buy later, add items to the cart, proceed to checkout and pay for their order. users can also track their orders.if log in as admin you can have access to add and delete products,view orders and markorders as deliverd, admin can also add and delete users. the front-end is bult with react.js, redux for managing the state, bootstrap and scss for styling.the backend is built with node.js and express server, graphQl,jwt,and mongoDB",
 
-    url: "https://procomputers.herokuapp.com/",
+    url: "https://drive.google.com/file/d/11Bx2rp8yUd6X_RXCwIMFKSUMftnCcO5T/view?usp=sharing",
     repo: "https://github.com/falakhelanga/comp-ecomm",
   },
 ];
