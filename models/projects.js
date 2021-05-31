@@ -5,30 +5,38 @@ const Schema = mongoose.Schema();
 const project = new Schema({
   name: {
     type: String,
-    required: true,
+
   },
   image: {
     type: String,
-    required: true,
+ 
   },
-  name: {
+  tags: [
+    {
+      type: String,
+   
+    },
+  ],
+  description: {
     type: String,
-    required: true,
+
   },
-  name: {
+  url: {
     type: String,
-    required: true,
+    
   },
-  name: {
+  repo: {
     type: String,
-    required: true,
+
   },
-  name: {
-    type: String,
-    required: true,
-  },
+  cv: {
+    type: String
+  }
 });
 
 const projectsScchema = new Schema({
-  projects: [],
+  projects: [project],
 });
+
+const Projects = mongoose.model("Projects", projectsScchema);
+export default Projects;
