@@ -32,4 +32,15 @@ export const projects = [
     url: "https://procomputers.herokuapp.com/",
     repo: "https://github.com/falakhelanga/comp-ecomm",
   },
+  {
+    id: "4",
+    name: "whatsapp clone",
+    image: "/chat-app.png",
+    tags: ["#react", "#javascript", "#node.js", "#mongoDB", "#socke.io"],
+    description:
+      "this is a one-to-one messaging application. the user can be able to register with their unique identifier and password, they can also upload the profile picture. the loged in users can send a message to users registerd users. users can see if their freinds is online or typing a message. this is the full stack application built with react, express,node,mongoDB,socket.io and redux",
+
+    url: "https://chatappclone.herokuapp.com/",
+    repo: "https://github.com/falakhelanga/whatsapp_clone",
+  },
 ];
